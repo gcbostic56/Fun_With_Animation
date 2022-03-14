@@ -1,0 +1,54 @@
+html {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    background: url("https://i.pinimg.com/originals/81/45/0f/81450f353cdbe7934874fdd467e8af65.jpg") no-repeat 0 0; 
+    background-color: white; 
+    text-align: center; 
+    -webkit-animation: slide 20s linear infinite;
+    -webkit-transform: scale(1,1);
+}
+
+.title 
+{
+    background-color: purple;
+    border-style: solid;
+    border-color: aqua;
+    position: fixed;
+    left: 0; 
+    right: 0;
+    margin-top: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px;
+}
+img {width: 200px; 
+    flex-direction: row; 
+    padding-top: 150px; 
+    justify-content: space-evenly;
+    border-radius: 15px 15px;
+    
+}
+@-webkit-keyframes slide {
+    from { background-position: 0, 0;} to {background-position: -1000px, 0;
+}}
+h1:hover {
+    background-color: yellow;
+}
+
+.pictures {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    }
+    
+.pictures:hover
+{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+p {background-color: purple;}
